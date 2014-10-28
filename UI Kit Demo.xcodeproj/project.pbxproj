@@ -11,7 +11,6 @@
 		36CF286619FF321E00DE39D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CF286519FF321E00DE39D7 /* ViewController.swift */; };
 		36CF286919FF321E00DE39D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36CF286719FF321E00DE39D7 /* Main.storyboard */; };
 		36CF286B19FF321E00DE39D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36CF286A19FF321E00DE39D7 /* Images.xcassets */; };
-		36CF286E19FF321E00DE39D7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36CF286C19FF321E00DE39D7 /* LaunchScreen.xib */; };
 		36CF287A19FF321E00DE39D7 /* UI_Kit_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CF287919FF321E00DE39D7 /* UI_Kit_DemoTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +31,6 @@
 		36CF286519FF321E00DE39D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		36CF286819FF321E00DE39D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		36CF286A19FF321E00DE39D7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		36CF286D19FF321E00DE39D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		36CF287319FF321E00DE39D7 /* UI Kit DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI Kit DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36CF287819FF321E00DE39D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36CF287919FF321E00DE39D7 /* UI_Kit_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI_Kit_DemoTests.swift; sourceTree = "<group>"; };
@@ -81,7 +79,6 @@
 				36CF286519FF321E00DE39D7 /* ViewController.swift */,
 				36CF286719FF321E00DE39D7 /* Main.storyboard */,
 				36CF286A19FF321E00DE39D7 /* Images.xcassets */,
-				36CF286C19FF321E00DE39D7 /* LaunchScreen.xib */,
 				36CF286119FF321E00DE39D7 /* Supporting Files */,
 			);
 			path = "UI Kit Demo";
@@ -193,7 +190,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				36CF286919FF321E00DE39D7 /* Main.storyboard in Resources */,
-				36CF286E19FF321E00DE39D7 /* LaunchScreen.xib in Resources */,
 				36CF286B19FF321E00DE39D7 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,14 +238,6 @@
 				36CF286819FF321E00DE39D7 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		36CF286C19FF321E00DE39D7 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				36CF286D19FF321E00DE39D7 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
